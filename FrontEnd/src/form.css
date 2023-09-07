@@ -1,0 +1,78 @@
+.Mform{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.error {
+    color: red;
+    font-size: 14px; 
+    margin-top: 5px; 
+  }
+  
+form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: auto;
+    background-color: #595353af;
+    flex-wrap: wrap;
+    align-content: center;
+    border-radius: 8px;
+    justify-content: center;
+    padding: 25px;
+}
+form h1{
+    text-align: center;
+}
+input{
+    width: 85%;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+.profile {
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    background-size: cover;
+    background-image: url("./assets/images/profile.png");
+  }
+  
+  .prname {
+    border: none;
+  }
+  
+  ol {
+    display: flex;
+    position: relative; 
+  }
+  
+  .dropd {
+    visibility: hidden;
+    position: absolute;
+    top: 2.7rem;
+    right: 3.3rem; 
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 4px;
+  }
+  
+  ol:hover + .dropd {
+    visibility: visible;
+  }
+  .dropd:hover{
+    visibility: visible !important;
+  }
+  span:hover {
+    background-color: aliceblue;
+    cursor: pointer;
+  }
+  
+  

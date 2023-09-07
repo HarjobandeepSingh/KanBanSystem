@@ -1,0 +1,72 @@
+*{
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none !important;
+  color: white ;
+}
+li{
+  list-style: none;
+}
+body{
+  width: 100%;
+  height: auto;
+  color: white !important;
+  min-height: 100%;
+  max-width: 100%;
+  background-color: rgb(48, 44, 44) !important;
+}
+
+.container{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 10px;
+  letter-spacing: 2px;
+  justify-content: space-between;
+  color: white;
+}
+.logo{
+  font-size: 1.6vw;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ol{
+  list-style: none;
+  font-size: 1.4;
+}
+ol li{
+  border: 1px solid;
+  padding: 2px 12px 4px 12px;
+  border-radius: 1.2rem;
+  cursor: pointer;
+}
+.htext{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  height: 80vh;
+  flex-direction: column;
+  letter-spacing: 4px;
+  align-items: center;
+  font-size: 3vw;
+  justify-content: center;
+}
+.htext p{
+  font-size: 5vw;
+  margin-bottom: -15px;
+  font-weight: bolder;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  
+}
+.box{
+  background-color: whitesmoke;
+  color: black;
+  padding: 40px;
+  margin-top: 10px;
+  width: 20rem;
+  cursor: pointer;
+  }
+
+  .gg{
+    display: flex;
+    flex-direction: column !important;
+  }
